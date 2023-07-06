@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciprianni Beauperthuy</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <meta property = "og:url" content="https://ciprianni.github.io">
+    
+</head>
+<body>
+    
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Ciprianni Beauperthuy</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#profile"class="nav__links">Sobre mi</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#skills"class="nav__links">Skills</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#hobbies"class="nav__links">Hobbies</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#formacion"class="nav__links">Formación</a>
+                </li>
+        
+                <li class="nav__items">
+                    <a href="#contacto"class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./images/circulox.svg" class="nav__circulox">
+
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Hola mi nombre es Ciprianni Beauperthuy</h1>
+            <p class="hero__paragraph">Soy Desarrolladora Front End,encargada de diseñar la interfaz de usuario de los sitios web</p>
+        </section>
+
+    </header>
+
+    <main>
+        <section class="knowledge">
+            <div class="knowledge__container container" id="profile">
+                <div class="knowledge__texts">
+                    <h2 class="subtittle">Sobre mi</h2>
+                    <p class="knowledge__paragraph">Soy de Venezuela,Tengo 27 años. Soy estudiante de desarrollo web frontend developer de forma autodidacta mediante el curso del programa Oracle Next Education de Alura y principiante en programación. Me gusta el diseño,en mis tiempos libres diseño logotipos y participo en el diseño de páginas web de forma remota</p>
+
+                    <a class="btn" href="images/Curriculum Vitae Profesional Minimalista Pastel  (4).pdf" target="_blank">Curriculum</a>
+                    
+                </div>
+                
+                <figure class="knowledge__picture">
+                    <img src="./images/imagen6 (1).jpg" class="knowledge__img">
+                </figure>
+
+            </div>
+
+        </section>    
+
+    
+        <section class="container about" id="skills">
+            <h2 class="subtitle">Skills</h2>
+            <div class="about__main"  >
+                <article class="about__icons">
+                    <img src="./images/html5.svg" class="about__icon">
+                    <h3 class="about__title">Html 5</h3>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/css.svg" class="about__icon">
+                    <h3 class="about__title">Css</h3>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/java.svg" class="about__icon">
+                    <h3 class="about__title">Java Scrip</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="container about" id="hobbies">
+            <h2 class="subtitle">Hobbies</h2>
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./images/foto.svg" class="about__icon">
+                    <h3 class="about__title">Tomar Fotografias</h3>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/musica.svg" class="about__icon">
+                    <h3 class="about__title">Escuchar Música</h3>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./images/libros.svg" class="about__icon">
+                    <h3 class="about__title">Leer</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="container formacion" id="formacion">
+            <h2 class="subtitle">Formación</h2>
+
+            <div class="about formacion">
+                <article class="about__img">
+                    <img src="./images/Imagem.png" style="border: 4px solid #E30052;"class="about__img">
+                    <h3 class="about__title">Formación en Programación</h3>
+                    <h3 class="about__title">Formación en Front End</h3>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="container contact" id="contacto">
+            <h2 class="subtitle">Contacto</h2>
+            <div class="contact-details">
+                <div class="contact-details-group">
+                    <p class="contact-label">Teléfono</p>
+                    <p class="contact-text">+58 4128655341</p>
+                </div>
+
+                <div class="contact-details-group">
+                    <p class="contact-label">Email</p>
+                    <p class="contact-text">cipribeauperthuy@gmail.com</p>
+                </div>
+
+                <div class="contact-details-group">
+                     <p class="contact-text">Deje su mensaje y con gusto le responderé</p>
+                </div>
+
+            </div>
+            <form class="contact-form" form action="https://formsubmit.co/cipribeauperthuy@gmail.com" method="post">
+                <div class="contact-form-group">
+                    <label for="name">Nombre</label>
+                    <input required type="text" name="name" id="name">
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="name">Email</label>
+                    <input required type="email" name="email" id="email">
+                </div>
+
+                <div class="contact-form-group">
+                    <label for="name">Mensaje</label>
+                    <textarea required name="message" id="message" rows="6"></textarea>
+                </div>
+                
+                <button type="submit" class="contact-form-submit">Enviar</button>
+            </form>
+
+            <nav class="social">
+                <ul class="social-list">
+                    <li>
+                        <a href="https://www.instagram.com/cipribeauperthuy1996/" target="_blank">
+                           <img src="images/instagram.svg" alt="instagram profile">
+                        </a>
+                        
+                    </li>
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/ciprianni-beauperthuy-05305a271" target="black">
+                            <img src="images/linkedin.svg" alt="linkedin profile">
+                        </a>
+                        
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/ciprianni" target="_blank">
+                            <img src="images/github.svg" alt="github profile">
+                        </a>
+                        
+                    </li>
+
+                </ul>
+            </nav>
+ 
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <p> © Desarrollado por Ciprianni Beauperthuy 2023</p>
+        
+    </footer>
+
+    <script src="./js/menu.js"></script>
+
+</body>
+</html>
